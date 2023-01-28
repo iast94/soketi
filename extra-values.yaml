@@ -1,0 +1,7 @@
+app:
+  extraEnv:
+    - name: SOKETI_CLUSTER_PORT
+      value: "6001"
+service:
+  type: LoadBalancer
+  port: 80
